@@ -34,3 +34,28 @@ body {
   background-color: white;
   color: steelblue;
 }
+img {
+  width: 80%;
+}
+body {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+nav, footer {
+  text-align: center;
+}
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+main p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+a {
+  font-size: 1.5em;
+}
