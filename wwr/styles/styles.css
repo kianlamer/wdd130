@@ -48,7 +48,7 @@ h4 {
     text-decoration: none;
 }
 .book:hover {
-    color:#F4AC45;
+    color: #F4AC45;
 }
 .join:hover {
     color:#F4AC45;
@@ -59,8 +59,12 @@ h4 {
 .msg p {
     color:#2274A5;
 }
+.msg {
+    background-color: #81A269;
+}
 footer {
     color:#2274A5;
+    background-color: #81A269;
 }
 footer a {
     color:#2274A5;
@@ -83,4 +87,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+div {
+    background-color: antiquewhite;
 }
