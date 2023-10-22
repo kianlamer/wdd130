@@ -31,17 +31,19 @@
 } 
 /* Activity 2 styles */ 
 .content2 {
-  /* This is the parent of the activity 2 boxes. */
+  grid-template-columns: 50px 50px 50px 50px 50px;
 }
 .red2 {
   width: 100px; 
   height: 100px; 
-  background-color: red; 
+  background-color: rgb(59, 4, 4); 
+  grid-column:1;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  grid-column: 2;
 } 
 .yellow2 {
   width: 100px; 
@@ -136,15 +138,13 @@ padding: 0;
 } 
 .green5 { 
   width: 100px; 
-  height: 100px; 
-  background-color: green; 
-
+  height: 80px; 
+  background-color: green;
 } 
 .yellow5 {
   width: 100%; 
   height: 200px; 
   background-color: gold; 
-
 } 
 .blue5 {
   width: 100%; 
@@ -153,12 +153,15 @@ padding: 0;
 } 
 /* Activity 6 styles */ 
 .content6 {
-  /* This is the parent of the activity 6 boxes. */
+  display:grid;
+  grid-template-columns: 1 1 1 1 1 1;
 }
 .red6 {
   width: 100px; 
   height: 100px; 
   background-color: red; 
+  grid-column: 1/4;
+  z-index: -1;
 } 
 .green6 {
   width: 100px; 
