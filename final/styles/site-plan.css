@@ -20,9 +20,9 @@ Fonts are separated by a | */
   --headline-color-on-white: #2fb22d;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #0076bc; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #0076bc  ;
-  --nav-link-color: black;
+  --nav-link-color: white;
   --nav-background-color: #e57a00;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #e00000;
@@ -37,7 +37,6 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
-  background-color: black;
 }
 img {
   display: block;
