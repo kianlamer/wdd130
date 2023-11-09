@@ -55,6 +55,7 @@ main section img {
     box-sizing: border-box;
 }
 #background {
+    background-color: #62C370;
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
