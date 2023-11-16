@@ -8,6 +8,7 @@ nav {
     display:flex;
     justify-content: space-around;
     z-index: 1;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 nav a {
     text-align: left;
@@ -74,6 +75,7 @@ header {
     background-color:#F5BB00;
     display:grid;
     grid-template-columns: 150px auto;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .home-grid {
     display:grid;
@@ -135,6 +137,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 5px 10px 5px #6f7364;
 }
 footer a {
     color:#5911A7;
@@ -154,6 +157,7 @@ footer p {
 }
 .logo {
     width:80px;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .icon {
     width:80px;
@@ -213,6 +217,9 @@ p {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+#content2 {
+    background-color: #62C370;
+}
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -221,7 +228,7 @@ form {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
-    background-color: #ffeeb4;
+    background-color:#F5BB00;
     box-shadow: 5px 5px 10px #6f7364;
   }
   
@@ -254,6 +261,7 @@ form {
   
     /* Match form field borders */
     border: 1px solid #999;
+    background-color: rgb(216, 207, 194);
   }
   
   input:focus,
@@ -283,6 +291,7 @@ form {
   .form-main {
     padding: 100px 0;
     text-align: center;
+    background-color: #62C370;
   }
   #feedback {
     background-color: antiquewhite;
