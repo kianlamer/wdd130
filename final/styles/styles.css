@@ -82,16 +82,15 @@ nav a:hover {
 .main-section2 {
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 200px;
     display: grid;
     grid-template-columns: 1fr auto;
 }
 .main-section2 p {
-    padding-top: 200px;
     grid-column: 1/2;
     text-align: center;
 }
 #main-img2 {
-    padding-top: 200px;
     grid-column: 2/6;
     padding-left: 100px;
 }
@@ -145,4 +144,5 @@ footer p {
 p {
     line-height: 1.5em;
     color: #2fb22d;
+    border: 5px solid #0076bc;
 }
