@@ -91,6 +91,7 @@ nav a:hover {
     padding-left: 200px;
     padding-right: 200px;
     text-align: center;
+    margin: auto;
 }
 .main-section h3 {
     color: #0076bc;
@@ -117,6 +118,21 @@ nav a:hover {
 #main-img2 {
     flex-grow: 3;
 }
+#main-img3 {
+    text-align: right;
+    flex: 1;
+    width: auto;
+}
+.main-section3 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.main-section3 p {
+    flex: 1;
+    text-align: center;
+    height: auto;
+}
 body {
     font-family: 'Rubik', Arial, sans-serif;
     font-size: 22px;
@@ -129,7 +145,7 @@ header {
     grid-template-columns: 150px auto;
 }
 h3 {
-    color: white;
+    color: rgb(182, 125, 125);
 }
 footer {
     color:white;
